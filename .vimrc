@@ -6,4 +6,5 @@ set ai
 set number
 set hlsearch
 set ruler
+set nocompatible
 highlight Comment ctermfg=green
