@@ -40,5 +40,5 @@ unset __conda_setup
 
 # this function creates a repo on my github
 function mkrepo(){
-    curl -H "Authorization: token $GITTOKEN" --data '{"name":"$2"}' https://api.github.com/user/repos
+    curl -H "Authorization: token $GITTOKEN" --data '{"name":"'"$2"'"}' https://api.github.com/user/repos
 }
